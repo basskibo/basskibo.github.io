@@ -22,6 +22,7 @@
 <!--Angular import CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 
+<!--Other libaries -->
 <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
@@ -29,8 +30,11 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/jquery.translate.js"></script>
+<script type="text/javascript" src="js/translations.js"></script>
 
-<!--november slider-->
+
+    <!--november slider-->
 <script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
 <script type="text/javascript" src="js/global.js"></script>
 <script type="text/javascript" src="js/modernizr.js"></script>
@@ -46,36 +50,39 @@
     	<figure class="logo animated fadeInDown delay-07s">
         	<a href="#"><img src="img/logo.png" alt=""></a>	
         </figure>	
-        <h1 class="animated fadeInDown delay-07s">Welcome To Iguana Development</h1>
+        <h1 class="animated fadeInDown delay-07s"><span class="trn" data-trn-key="WELCOME">Welcome To Iguana Development</span> </h1>
         <ul class="we-create animated fadeInUp delay-1s">
-        	<li>Where your dreams come true.</li>
+        	<li><span class="trn" data-trn-key="WELCOME2"> Where your dreams come true.</span> </li>
         </ul>
-            <a class="link animated fadeInUp delay-1s" href="#test">Get Started</a>
+            <a class="link animated fadeInUp delay-1s" href="#test"><span class="trn" data-trn-key="GETSTARTED">Get Started</span> </a>
     </div>
 </div>
 </header><!--header-end-->
 
+<!--TODO pogledati zasto header nije fiksiran vec se izmesa sa servisom-->
 
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
-	<div class="container1">
-        <div class="navimg"><img class="imgsl" src="img/small-logo.png"> </img></div>
-        <ul class="main-nav"> 
-      	    <li><a href="#header">Home</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul class="main-nav">
+            <div class="navimg"><img class="imgsl" src="img/small-logo.png"> </img></div>
+
+            <!--<li><a href="#header">Home</a></li>-->
+            <li><a href="#service" class="trn" data-trn-key="SERVICE">Services</a></li>
+            <li><a href="#portfolio" class="trn" data-trn-key="PORTFOLIO">Portfolio</a></li>
+            <li><a href="#team" class="trn" data-trn-key="TEAM">Team</a></li>
+            <li><a href="#contact" class="trn" data-trn-key="CONTACT">Contact Us</a></li>
+            <li>
+                <a class="btn lang_selector trn" href="#service" data-value="rs" ><img src="img/flag/rs.png"  width="30" height="30"/></a>
+                <a class="btn lang_selector trn" href="#service" data-value="en"><img src="img/flag/en.png"  width="30" height="30"/></a>
+            </li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-    </div>
 </nav><!--main-nav-end-->
-
 
 
 <section class="main-section" id="service"><!--main-section-start-->
 	<div class="container">
-    	<h2>Services</h2>
-    	<h6>We offer exceptional service with complimentary hugs.</h6>
+    	<h2 class="trn" data-trn-key="SERVICE">Services</h2>
+    	<h6 class="trn" data-trn-key="SERVICE2">.</h6>
         <div class="row">
         	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                 <div class="service-list">
