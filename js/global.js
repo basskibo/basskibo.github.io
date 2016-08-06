@@ -6,40 +6,6 @@ http://www.templatemo.com/tm-473-november
 
 */
 
-/* Google Maps
-------------------------------------------------*/
-var map = '';
-var center;
-
-function initialize() {
-  var mapOptions = {
-    zoom: 14,
-    center: new google.maps.LatLng(37.769725, -122.462154),
-    scrollwheel: false,
-    draggable:false
-  };
-
-  map = new google.maps.Map(document.getElementById('GoogleMap'),  mapOptions);
-
-  google.maps.event.addDomListener(map, 'idle', function() {
-    calculateCenter();
-  });
-
-  google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(center);
-  });
-}
-
-function calculateCenter() {
-  center = map.getCenter();
-}
-
-function loadGoogleMap(){
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-  document.body.appendChild(script);
-}
 
 /* onScroll function
 ----------------------------------------*/
@@ -127,7 +93,6 @@ $(document).ready(function(){
     }
   });
   
-  loadGoogleMap();
 
 }); 
 
