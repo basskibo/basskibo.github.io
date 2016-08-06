@@ -99,7 +99,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(https://w-dog.net/wallpapers/9/17/342409545117133/night-desert-rock-canyon.jpg) left top repeat;
+	background-image: url("../img/ns.png");
 	padding:100px 0;
 }
 .logo{
@@ -113,6 +113,11 @@ p{
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
 	color:#fff;
+}
+
+.navimg{
+    display: flex;
+    justify-content: center;
 }
 
 .we-create{
@@ -189,7 +194,7 @@ float:left;
 	background:#fff;
 }
 .main-nav{
-	text-align:right;
+	text-align:center;
 	margin:0px;
 	padding:0;
 	list-style:none;
@@ -851,4 +856,9 @@ width: 150px
 	-webkit-animation-delay: 1.2s; 
 }
 
+.imgsl{
+	max-width: 100%;
+	
+
+}
 

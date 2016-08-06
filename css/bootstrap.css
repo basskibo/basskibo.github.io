@@ -694,7 +694,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 100%;
+    width: 750px;
   }
 }
 @media (min-width: 992px) {
@@ -705,6 +705,16 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .container1 {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    
   }
 }
 .row {
@@ -5968,14 +5978,6 @@ th.visible-print,
 td.visible-print {
   display: none !important;
 }
-
-
-.headerImage{
-  float: left;
-  margin-left: 10px;
-
-}
-
 @media print {
   .visible-print {
     display: block !important;
