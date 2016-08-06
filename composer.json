@@ -1,0 +1,14 @@
+{
+  "name": "iguana development",
+  "description": "Example Application to Deploy On Hostinger",
+  "require": {
+    "slim/slim": "^2.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bojan Jagetic",
+      "email": "jagetic.bojan@gmail.com"
+    }
+  ]
+}
