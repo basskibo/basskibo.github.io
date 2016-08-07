@@ -24,7 +24,7 @@ $(function() {
         },
         TEAM:{
             en:'Team',
-            rs:'Nas Tim'
+            rs:'Tim'
         },
         CONTACT:{
             en:'Contact Us',
