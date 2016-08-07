@@ -189,6 +189,8 @@ float:left;
 .main-nav-outer{
 	padding:0px;
 	border-bottom:1px solid #dddddd;
+	border-top:1px solid #222;
+
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
 	background:#222;

@@ -198,7 +198,7 @@
                 // Remove the style attributes that were added to the target.
                 // This will reverse the target back to the its original style.
                 target.css({
-                    'z-index' : originalZIndex,
+                    'z-index' : 1000,
                     'width' : '',
                     'position' : originalPosition,
                     'left' : '',
