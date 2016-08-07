@@ -191,7 +191,7 @@ float:left;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background:#fff;
+	background:#222;
 }
 .main-nav{
 	text-align:center;
@@ -206,7 +206,7 @@ float:left;
 }
 .main-nav li a{
 	display:inline-block;
-	color:#222222;
+	color:#999;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -255,7 +255,11 @@ float:left;
 	overflow:hidden;	
 }
 .main-section.alabaster{
-	background:#fafafa;
+	background:#f1f1f1;
+}
+
+.langBtn{
+	background: none;
 }
 
 /* Featured Work
@@ -790,7 +794,7 @@ width: 150px
 	font-family: 'FontAwesome';
 	font-size:38px;
 	text-decoration: none !important;
-	color:#222;
+	color:#ffc000;
 	font-style:normal;
 	display:none;
 	width:42px;

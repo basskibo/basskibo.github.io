@@ -45,7 +45,7 @@
 </head>
 <body>
 <div style="overflow:hidden;">
-<header class="header" id="header"><!--header-start-->
+<div class="header" id="header"><!--header-start-->
 	<div class="container">
     	<figure class="logo animated fadeInDown delay-07s">
         	<a href="#"><img src="img/logo.png" alt=""></a>	
@@ -57,11 +57,11 @@
             <a class="link animated fadeInUp delay-1s" href="#test"><span class="trn" data-trn-key="GETSTARTED">Get Started</span> </a>
     </div>
 </div>
-</header><!--header-end-->
+</div>
 
 <!--TODO pogledati zasto header nije fiksiran vec se izmesa sa servisom-->
 
-<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+<div class="main-nav-outer" id="test"><!--main-nav-start-->
         <ul class="main-nav">
             <div class="navimg"><img class="imgsl" src="img/small-logo.png"> </img></div>
 
@@ -71,12 +71,12 @@
             <li><a href="#team" class="trn" data-trn-key="TEAM">Team</a></li>
             <li><a href="#contact" class="trn" data-trn-key="CONTACT">Contact Us</a></li>
             <li>
-                <a class="btn lang_selector trn" href="#service" data-value="rs" ><img src="img/flag/rs.png"  width="30" height="30"/></a>
-                <a class="btn lang_selector trn" href="#service" data-value="en"><img src="img/flag/en.png"  width="30" height="30"/></a>
+                <button class="btn langBtn lang_selector trn" href="#service" data-value="rs" ><img src="img/flag/rs.png"  width="30" height="30"/></button>
+                <button class="btn langBtn lang_selector trn" href="#service" data-value="en"><img src="img/flag/en.png"  width="30" height="30"/></button>
             </li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-</nav><!--main-nav-end-->
+</div><!--main-nav-end-->
 
 
 <section class="main-section" id="service"><!--main-section-start-->
@@ -260,18 +260,7 @@
 
 
 
-<div class="c-logo-part"><!--c-logo-part-start-->
-	<div class="container">
-    	<ul>
-        	<li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-            <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-            <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-            <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-            <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
-    	</ul>
-	</div>
-</div><!--c-logo-part-end-->
-<section class="main-section team" id="team"><!--main-section team-start-->
+<section class="main-section team alabaster" id="team"><!--main-section team-start-->
 	<div class="container">
         <h2>Meet our team</h2>
         <h6>Here you can see more informations about our team.</h6>
@@ -407,6 +396,17 @@
             return false    
             
         });
+        //vrati menu nazad nakon klika na link
+        $('li a').click(function () {
+            $('.main-nav').slideToggle();
+            return false;
+        });
+        //vrati menu nazad nakon klika na button
+        $('button').click(function () {
+            $('.main-nav').slideToggle();
+            return false;
+        });
+
         
     });
 </script>
@@ -428,16 +428,15 @@
 		
 		$('.main-nav li a').bind('click',function(event){
 			var $anchor = $(this);
-			
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 102
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
+			// usporeno
+//			$('html, body').stop().animate({
+//				scrollTop: $($anchor.attr('href')).offset().top - 102
+//			}, 1500,'easeInOutExpo');
+
+			//if you don't want to use the easing effects:
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top
 			}, 1000);
-			*/
 			event.preventDefault();
 		});
 	})
