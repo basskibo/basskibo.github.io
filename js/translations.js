@@ -34,7 +34,11 @@ $(function() {
             en:'Name *',
             rs:'Ime *'
         },
-        MESSAGE:{
+        GETSTARTED: {
+            en: 'Get Started',
+            rs: 'Saznaj više'
+        },
+        MESSAGE: {
             en:'Message *',
             rs:'Poruka *'
         }

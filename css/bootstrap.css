@@ -16,7 +16,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 nav,
 section,
@@ -707,10 +706,10 @@ pre code {
     width: 1170px;
   }
   .container1 {
-    width: 1170px;
+    /*width: 1170px;*/
     margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
+    /*margin-left: auto;*/
+    padding-left: 50px;
     padding-right: 15px;
     display: flex;
     justify-content: space-between;
@@ -2285,22 +2284,23 @@ input[type="button"].btn-block {
   -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-}
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
+/*@font-face {*/
+/*font-family: 'Glyphicons Halflings';*/
+/*src: url('../fonts/glyphicons-halflings-regular.eot');*/
+/*src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');*/
+/*}*/
+/*.glyphicon {*/
+/*position: relative;*/
+/*top: 1px;*/
+/*display: inline-block;*/
+/*font-family: 'Glyphicons Halflings';*/
+/*font-style: normal;*/
+/*font-weight: normal;*/
+/*line-height: 1;*/
+/*-webkit-font-smoothing: antialiased;*/
+/*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
 .glyphicon:empty {
   width: 1em;
 }
@@ -5195,7 +5195,6 @@ button.close {
   background-color: #ffffff;
   background-clip: padding-box;
   border: 1px solid #cccccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -5525,9 +5524,7 @@ button.close {
 .affix {
   position: fixed;
 }
-@-ms-viewport {
-  width: width !important;
-}
+
 .visible-xs,
 tr.visible-xs,
 th.visible-xs,
