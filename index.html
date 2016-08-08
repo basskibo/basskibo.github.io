@@ -351,9 +351,12 @@
             </div>
         	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
             	<form class="form">
-                	<input class="input-text" type="text" name="" value="Your Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input class="input-text" type="text" name="" value="Your E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                	<textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+                    <label for="name" class="trn" data-trn-key="NAME">Name</label>
+                	<input class="input-text" type="text" name="name" id="name"  onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <label for="email" >Email *</label>
+                    <input class="input-text" type="text" name="email" id="email"  onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                	<label for="message" class="trn" data-trn-key="MESSAGE" >Message</label>
+                    <textarea class="input-text text-area" name="message" id="message" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"></textarea>
                     <input class="input-btn" type="submit" value="send message">
                 </form>	
             </div>

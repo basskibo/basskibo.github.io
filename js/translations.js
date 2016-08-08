@@ -29,6 +29,14 @@ $(function() {
         CONTACT:{
             en:'Contact Us',
             rs:'Kontaktirajte Nas'
+        },
+        NAME:{
+            en:'Name *',
+            rs:'Ime *'
+        },
+        MESSAGE:{
+            en:'Message *',
+            rs:'Poruka *'
         }
     };
     var _t = $('body').translate({lang: "rs", t: t});
