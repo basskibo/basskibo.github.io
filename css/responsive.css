@@ -10,7 +10,7 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ 
-		display: flex;
+		display: flex !important;
         align-items: center; 
      }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
