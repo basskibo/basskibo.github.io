@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 
 <title>Iguana Development</title>
-<link rel="icon" href="mini.png" type="image/png">
-<link rel="shortcut icon" href="mini1.png" type="img/x-icon">
+    <link rel="icon" href="/img/main/mini.png" type="image/png">
+    <link rel="shortcut icon" href="img/main/mini1.png" type="img/x-icon">
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
@@ -352,14 +352,16 @@
                 </ul>
             </div>
         	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-            	<form class="form">
+                <form name="sentMessage" id="contactForm" validate>
                     <label for="name" class="trn" data-trn-key="NAME">Name</label>
                 	<input class="input-text" type="text" name="name" id="name"  onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
                     <label for="email" >Email *</label>
-                    <input class="input-text" type="text" name="email" id="email"  onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <input class="input-text" type="email" name="email" id="email"
+                           onfocus="if(this.value==this.defaultValue)this.value='';"
+                           onblur="if(this.value=='')this.value=this.defaultValue;">
                 	<label for="message" class="trn" data-trn-key="MESSAGE" >Message</label>
                     <textarea class="input-text text-area" name="message" id="message" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"></textarea>
-                    <input class="input-btn" type="submit" value="send message">
+                    <button class="btn btn-xl" type="submit">Send Message</button>
                 </form>	
             </div>
         </div>
