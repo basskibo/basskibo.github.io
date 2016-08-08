@@ -32,8 +32,6 @@ $(function() {
         }
     };
     var _t = $('body').translate({lang: "rs", t: t});
-    var str = _t.g("translate");
-    console.log(str);
 
 
     $(".lang_selector").click(function(ev) {
