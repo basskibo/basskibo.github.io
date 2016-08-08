@@ -9,7 +9,10 @@
 	.service-list{ margin-bottom:30px;}
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
-	.main-nav{ display:block !important; }
+	.main-nav{ 
+		display: flex;
+        align-items: center; 
+     }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
 }	

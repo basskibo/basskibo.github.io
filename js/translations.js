@@ -29,7 +29,11 @@ $(function() {
         CONTACT:{
             en:'Contact Us',
             rs:'Kontaktirajte Nas'
-        }
+        },
+		GETSTARTED:{
+			en:'Get Started',
+			rs:'Saznaj više'
+		}
     };
     var _t = $('body').translate({lang: "rs", t: t});
     var str = _t.g("translate");

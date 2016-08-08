@@ -131,7 +131,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
@@ -170,7 +170,7 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:ffc000!important;
+	color:#000!important;
 	background:#fff;
 }
 
@@ -187,13 +187,12 @@ float:left;
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
-	padding:0px;
-	border-bottom:1px solid #dddddd;
-	border-top:1px solid #222;
-
-	box-shadow:0 4px 5px -3px #ececec;
-	position:relative;
-	background:#222;
+	padding: 0px;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    box-shadow: 0 5px 20px -8px #2d2d2d;
+    position: relative;
+    background: #fff;
 }
 .main-nav{
 	text-align:center;
@@ -203,17 +202,18 @@ float:left;
 }
 .main-nav li{
 	display:inline;
-	margin:0 -10px;
+	/*margin:0 -10px; */
 	left: 270px;
 }
 .main-nav li a{
 	display:inline-block;
-	color:#999;
+	color:#000;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	line-height:20px;
-	margin:17px 32px;
+	margin:17px 20px;
+	font-size: 16px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -262,6 +262,8 @@ float:left;
 
 .langBtn{
 	background: none;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 /* Featured Work
