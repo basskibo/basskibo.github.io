@@ -25,7 +25,7 @@ $(function () {
                     message: message
                 },
                 contentType:'application/x-www-form-urlencoded; charset=UTF-8',
-                cache: true,
+                cache: false,
                 success: function () {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
