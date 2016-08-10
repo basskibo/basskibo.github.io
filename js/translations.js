@@ -4,18 +4,18 @@ $(function() {
 
         WELCOME:{
           en:'Welcome To Iguana Development',
-          rs:'Dobrodosli u Iguana Development'
+          rs:'Dobrodošli na Iguana Development'
         },
         WELCOME2:{
-          en:'Where your dreams come true.',
-          rs:'Gde se vasi snovi ostvaruju'
+          en:'We make wishes come true.',
+          rs:'Mi ostvarujemo vaše želje'
         },
         SERVICE: {
             en: "SERVICE",
             rs: "USLUGE"
         },
         SERVICE2: {
-            rs: "Usluge koje vam nudimo mozete pogledati ispod",
+            rs: "Usluge koje vam nudimo možete pogledati ispod",
             en: "We offer exceptional service with complimentary hugs"
         },
         PORTFOLIO:{
@@ -41,7 +41,79 @@ $(function() {
         MESSAGE: {
             en:'Message *',
             rs:'Poruka *'
+        },
+
+        PORTFOLIOimg: {
+            en:'Our prtfolio',
+            rs:'Naš portfolio'
+        },
+
+        FEATUREDWORK: {
+            en:'Featured work',
+            rs:'Istaknuti radovi'
+        },
+
+        ALL: {
+            en: 'All',
+            rs: 'Sve'
+        },
+
+        WEBDEVELOPMENT:{
+            en:'Web development',
+            rs:'Web development'
+        },
+
+        LOGODESIGN: {
+            en: 'Logo Design',
+            rs: 'Logo dizajn'
+        },
+
+        PORTFOLIOopis: {
+            en: 'Here you can see our work.',
+            rs: 'Ovde možete videti naše dosadašnje radove.'
+        },
+
+        TEAMinfo: {
+            en: 'Meet our team',
+            rs: 'Upoznajte naš tim'
+        },
+
+        TEAMdetail: {
+            en:'Here you can see more informations about our team.',
+            rs:'Ovde mozete videti više informacija o našem timu'
+        },
+
+        DESIGNER: {
+            en:'Designer',
+            rs:'Dizajner'
+        },
+
+        COFOUNDER:{
+            en:'Co-founder',
+            rs:'Suosnivač'
+        },
+
+        CEOCOFOUNDER:{
+            en: 'CEO / Co-founder',
+            rs: 'CEO / Suosnivač'
+        },
+
+        ADDRESS: {
+            en: 'Addres',
+            rs: 'Adresa'
+        },
+
+        CONTACT: {
+            en: 'Contact Us',
+            rs: 'Kontaktirajte nas'
         }
+
+
+
+
+
+
+        
     };
     var _t = $('body').translate({lang: "rs", t: t});
 
