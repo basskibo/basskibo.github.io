@@ -106,6 +106,11 @@ $(function() {
         CONTACT: {
             en: 'Contact Us',
             rs: 'Kontaktirajte nas'
+        },
+
+        PRICING: {
+            en:'Pricing',
+            rs:'Cenovnik'
         }
 
 
