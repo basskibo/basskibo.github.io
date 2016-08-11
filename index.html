@@ -18,6 +18,7 @@
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/pricing.css" type="text/css"/>
 
 
 
@@ -36,6 +37,9 @@
 <script type="text/javascript" src="js/translations.js"></script>
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+
+    <!-- pricing -->
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
 
 
 
@@ -282,7 +286,6 @@
 </section><!--main-section-end-->
 
 
-
 <section class="main-section team alabaster" id="team"><!--main-section team-start-->
 	<div class="container">
         <h2 class="trn" data-trn-key="TEAMinfo">Meet our team</h2>
@@ -345,20 +348,204 @@
     </div>
 </section>
 
+
 <!--PRICE-->
+<section class="main-section contact" id="pricing">
+    <h2 class="trn" data-trn-key="PRICING">Pricing</h2>
+    <div class="cd-pricing-container cd-has-margins">
+        <!--<div class="cd-pricing-switcher">-->
+        <!--<p class="fieldset">-->
+        <!--<input type="radio" name="duration-2" value="web" id="web-2" checked>-->
+        <!--<label for="web-2">Web Development</label>-->
+        <!--<input type="radio" name="duration-2" value="logo" id="branding-2">-->
+        <!--<label for="branding-2">Branding</label>-->
+        <!--<input type="radio" name="duration-2" value="mobile" id="mobile-2">-->
+        <!--<label for="mobile-2">Mobile development</label>-->
+        <!--<span class="cd-switch"></span>-->
+        <!--</p>-->
+        <!--</div> &lt;!&ndash; .cd-pricing-switcher &ndash;&gt;-->
+
+        <ul class="cd-pricing-list cd-bounce-invert">
+            <li>
+                <ul class="cd-pricing-wrapper">
+                    <li data-type="web" class="is-visible">
+                        <header class="cd-pricing-header">
+                            <h2>Basic</h2>
+
+                            <div class="cd-price">
+                                <span class="cd-currency">$</span>
+                                <span class="cd-value">30</span>
+                                <span class="cd-duration">mo</span>
+                            </div>
+                        </header> <!-- .cd-pricing-header -->
+
+                        <div class="cd-pricing-body">
+                            <ul class="cd-pricing-features">
+                                <li><em>256MB</em> Memory</li>
+                                <li><em>1</em> User</li>
+                                <li><em>1</em> Website</li>
+                                <li><em>1</em> Domain</li>
+                                <li><em>Unlimited</em> Bandwidth</li>
+                                <li><em>24/7</em> Support</li>
+                            </ul>
+                        </div> <!-- .cd-pricing-body -->
+
+                        <footer class="cd-pricing-footer">
+                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                        </footer>  <!-- .cd-pricing-footer -->
+                    </li>
+
+                    <li data-type="branding" class="is-hidden">
+                        <header class="cd-pricing-header">
+                            <h2>Basic</h2>
+
+                            <div class="cd-price">
+                                <span class="cd-currency">$</span>
+                                <span class="cd-value">320</span>
+                                <span class="cd-duration">yr</span>
+                            </div>
+                        </header> <!-- .cd-pricing-header -->
+
+                        <div class="cd-pricing-body">
+                            <ul class="cd-pricing-features">
+                                <li><em>256MB</em> Memory</li>
+                                <li><em>1</em> User</li>
+                                <li><em>1</em> Website</li>
+                                <li><em>1</em> Domain</li>
+                                <li><em>Unlimited</em> Bandwidth</li>
+                                <li><em>24/7</em> Support</li>
+                            </ul>
+                        </div> <!-- .cd-pricing-body -->
+
+                        <footer class="cd-pricing-footer">
+                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                        </footer>  <!-- .cd-pricing-footer -->
+                    </li>
+                </ul> <!-- .cd-pricing-wrapper -->
+            </li>
+
+            <li class="cd-popular">
+                <ul class="cd-pricing-wrapper">
+                    <li data-type="mobile" class="is-visible">
+                        <header class="cd-pricing-header">
+                            <h2>Popular</h2>
+                            <div class="cd-price">
+                                <span class="cd-currency">$</span>
+                                <span class="cd-value">60</span>
+                                <span class="cd-duration">mo</span>
+                            </div>
+                        </header> <!-- .cd-pricing-header -->
+
+                        <div class="cd-pricing-body">
+                            <ul class="cd-pricing-features">
+                                <li><em>512MB</em> Memory</li>
+                                <li><em>3</em> Users</li>
+                                <li><em>5</em> Websites</li>
+                                <li><em>7</em> Domains</li>
+                                <li><em>Unlimited</em> Bandwidth</li>
+                                <li><em>24/7</em> Support</li>
+                            </ul>
+                        </div> <!-- .cd-pricing-body -->
+
+                        <footer class="cd-pricing-footer">
+                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                        </footer>  <!-- .cd-pricing-footer -->
+                    </li>
+
+                    <li data-type="yearly" class="is-hidden">
+                        <header class="cd-pricing-header">
+                            <h2>Popular</h2>
+
+                            <div class="cd-price">
+                                <span class="cd-currency">$</span>
+                                <span class="cd-value">630</span>
+                                <span class="cd-duration">yr</span>
+                            </div>
+                        </header> <!-- .cd-pricing-header -->
+
+                        <div class="cd-pricing-body">
+                            <ul class="cd-pricing-features">
+                                <li><em>512MB</em> Memory</li>
+                                <li><em>3</em> Users</li>
+                                <li><em>5</em> Websites</li>
+                                <li><em>7</em> Domains</li>
+                                <li><em>Unlimited</em> Bandwidth</li>
+                                <li><em>24/7</em> Support</li>
+                            </ul>
+                        </div> <!-- .cd-pricing-body -->
+
+                        <footer class="cd-pricing-footer">
+                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                        </footer>  <!-- .cd-pricing-footer -->
+                    </li>
+                </ul> <!-- .cd-pricing-wrapper -->
+            </li>
+
+            <li>
+                <ul class="cd-pricing-wrapper">
+                    <li data-type="monthly" class="is-visible">
+                        <header class="cd-pricing-header">
+                            <h2>Premier</h2>
+
+                            <div class="cd-price">
+                                <span class="cd-currency">$</span>
+                                <span class="cd-value">90</span>
+                                <span class="cd-duration">mo</span>
+                            </div>
+                        </header> <!-- .cd-pricing-header -->
+
+                        <div class="cd-pricing-body">
+                            <ul class="cd-pricing-features">
+                                <li><em>1024MB</em> Memory</li>
+                                <li><em>5</em> Users</li>
+                                <li><em>10</em> Websites</li>
+                                <li><em>10</em> Domains</li>
+                                <li><em>Unlimited</em> Bandwidth</li>
+                                <li><em>24/7</em> Support</li>
+                            </ul>
+                        </div> <!-- .cd-pricing-body -->
+
+                        <footer class="cd-pricing-footer">
+                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                        </footer>  <!-- .cd-pricing-footer -->
+                    </li>
+
+                    <li data-type="yearly" class="is-hidden">
+                        <header class="cd-pricing-header">
+                            <h2>Premier</h2>
+
+                            <div class="cd-price">
+                                <span class="cd-currency">$</span>
+                                <span class="cd-value">950</span>
+                                <span class="cd-duration">yr</span>
+                            </div>
+                        </header> <!-- .cd-pricing-header -->
+
+                        <div class="cd-pricing-body">
+                            <ul class="cd-pricing-features">
+                                <li><em>1024MB</em> Memory</li>
+                                <li><em>5</em> Users</li>
+                                <li><em>10</em> Websites</li>
+                                <li><em>10</em> Domains</li>
+                                <li><em>Unlimited</em> Bandwidth</li>
+                                <li><em>24/7</em> Support</li>
+                            </ul>
+                        </div> <!-- .cd-pricing-body -->
+
+                        <footer class="cd-pricing-footer">
+                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                        </footer>  <!-- .cd-pricing-footer -->
+                    </li>
+                </ul> <!-- .cd-pricing-wrapper -->
+            </li>
+        </ul> <!-- .cd-pricing-list -->
+    </div> <!-- .cd-pricing-container -->
+
+</section>
 
 
-
-
-
-
-<section class="business-talking"><!--business-talking-start-->
-    <div class="container">
-        <h2>Kontaktirajte nas</h2>
-    </div>
-</section><!--business-talking-end-->
-<div class="container contactCont">
-<section class="main-section contact" id="contact">
+<section class="main-section contact alabaster" id="contact">
+    <h2 class="trn" data-trn-key="CONTACT">Kontaktirajte nas</h2>
     
         <div class="row">
             <div class="col-lg-6 col-sm-7 wow fadeInLeft">
@@ -389,12 +576,12 @@
                 </ul>
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-                <div class="form">
+                <form action="https://formspree.io/iguana.development.ns@gmail.com" method="POST" class="form">
                     <input class="input-text" type="text" name="" value="Your Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
                     <input class="input-text" type="text" name="" value="Your E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
                     <textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
                     <input class="input-btn" type="submit" value="send message">
-                </div>  
+                </form>
             </div>
         </div>
 </section>
