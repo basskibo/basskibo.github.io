@@ -794,4 +794,9 @@ width: 150px
 
 .imgsl{
 	max-width: 100%;
-	
+	}
+
+.no-margin{
+    margin-left:0px;
+    margin-right:0px;
+}
