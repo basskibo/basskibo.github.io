@@ -578,11 +578,15 @@
             </div>
         <form action="https://formspree.io/iguana.development.ns@gmail.com" method="POST"
               class="col-lg-6 col-sm-6 wow fadeInUp delay-05s">
-                    <input class="input-text" type="text" name="" value="Your Name *" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input class="input-text" type="email" name="" value="Your E-mail *"
+            <input class="input-text" type="text" name="name" value="Your Name *"
+                   onfocus="if(this.value==this.defaultValue)this.value='';"
+                   onblur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="email" name="email" value="Your E-mail *"
                            onfocus="if(this.value==this.defaultValue)this.value='';"
                            onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <textarea class="input-text text-area" cols="0" name="message" rows="0"
+                      onfocus="if(this.value==this.defaultValue)this.value='';"
+                      onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
                     <input class="input-btn" type="submit" value="send message">
                 </form>
         </div>
