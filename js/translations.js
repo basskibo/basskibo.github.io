@@ -84,8 +84,8 @@ $(function() {
         },
 
         DESIGNER: {
-            en:'Designer',
-            rs:'Dizajner'
+            en:'Designer/ Web Developer',
+            rs:'Dizajner/ Web Developer'
         },
 
         COFOUNDER:{
@@ -94,8 +94,8 @@ $(function() {
         },
 
         CEOCOFOUNDER:{
-            en: 'CEO / Co-founder',
-            rs: 'CEO / Suosnivač'
+            en: 'CEO/ Co-founder',
+            rs: 'CEO/ Suosnivač'
         },
 
         ADDRESS: {
