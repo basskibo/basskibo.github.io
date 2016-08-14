@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
 
     var t = {
 
@@ -31,16 +31,24 @@ $(function() {
             rs:'Kontaktirajte Nas'
         },
         NAME:{
-            en:'Name *',
-            rs:'Ime *'
+            en:'Name: *',
+            rs:'Ime: *'
         },
+	SEND_MESSAGE:{
+	    en: 'Send Message',
+	    rs: 'Posalji'
+	},
         GETSTARTED: {
             en: 'Get Started',
             rs: 'Saznaj više'
         },
+	EMAIL:{
+	    en: 'Email: *',
+	    rs: 'Email: *'
+	},
         MESSAGE: {
-            en:'Message *',
-            rs:'Poruka *'
+            en:'Message: *',
+            rs:'Poruka: *'
         },
 
         PORTFOLIOimg: {
@@ -99,20 +107,21 @@ $(function() {
         },
 
         ADDRESS: {
-            en: 'Addres',
+            en: 'Address',
             rs: 'Adresa'
         },
 
-        CONTACT: {
-            en: 'Contact Us',
-            rs: 'Kontaktirajte nas'
-        },
+        
 
         PRICING: {
-            en:'Pricing',
+            en:'Pricing' ,
             rs:'Cenovnik'
-        }
+        },
 
+	TELEPHONE: {
+	    en:'Telephone',
+	    rs:'Telefon'
+	}
 
 
 
