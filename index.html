@@ -55,14 +55,16 @@
 <div style="overflow:hidden;">
 <div class="header" id="header"><!--header-start-->
 	<div class="container">
-    	<figure class="logo animated fadeInDown delay-07s">
+        <figure class="logo animated fadeInDown delay-05s">
         	<a href="#"><img src="img/main/logo.png" alt=""></a>
         </figure>
-        <h1 class="animated fadeInDown delay-07s"><span class="trn" data-trn-key="WELCOME">Welcome To Iguana Development</span> </h1>
-        <ul class="we-create animated fadeInUp delay-1s">
+        <h1 class="animated fadeInDown delay-05s"><span class="trn"
+                                                        data-trn-key="WELCOME">Welcome To Iguana Development</span></h1>
+        <ul class="we-create animated fadeInUp delay-2s">
         	<li><span class="trn" data-trn-key="WELCOME2"> Where your dreams come true.</span> </li>
         </ul>
-            <a class="link animated fadeInUp delay-1s" href="#test"><span class="trn" data-trn-key="GETSTARTED">Get Started</span> </a>
+        <a class="link animated fadeInUp delay-2s" href="#test"><span class="trn"
+                                                                      data-trn-key="GETSTARTED">Get Started</span> </a>
     </div>
 </div>
 </div>
@@ -278,6 +280,12 @@
                     <h3>Iguana Dev</h3>
                     <p>Mobile development</p>
                 </div>
+        <div class=" Portfolio-box android">
+            <a href="#" target="_blank"><img style="border:1px solid black;"
+                                             src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTV18CMAaOCYQYvBbu1SlBjUSZIzD28kCt6VR_LWhkkOalvG9ax5Q"
+                                             alt="dani sporta"></a>
+            <p>See more</p>
+        </div>
                 
                 
                 
@@ -296,36 +304,32 @@
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team/team-leader-pic1.jpg" alt="">
                     <ul>
-                        <li><a href="#" class="fa-twitter"></a></li>
                         <li><a href="#" class="fa-facebook"></a></li>
-                        <li><a href="#" class="fa-dribbble"></a></li>
+                        <li><a href="#" class="fa-github"></a></li>
+
                         <li><a href="#" class="fa-google-plus"></a></li>
                     </ul>
                 </div>
                 <h3 class="wow fadeInDown delay-03s">Dragan Spancic</h3>
                 <span class="trn" data-trn-key="COFOUNDER"> Co-founder</span>
                 <span class="trn" data-trn-key="DESIGNER">Designer / Web Developer </span>
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <a href='http://bladesign.tk' target="_blank" >http://bladesign.tk </a>
             </div>
             <div class="team-leader-box">
                 <div class="team-leader  wow fadeInDown delay-06s"> 
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team/team-leader-pic2.jpg" alt="">
                     <ul>
-                        <li><a href="#" class="fa-twitter"></a></li>
                         <li><a href="#" class="fa-facebook"></a></li>
+                        <li><a href="#" class="fa-twitter"></a></li>
                         <li><a href="#" class="fa-linkedin"></a></li>
                         <li><a href="#" class="fa-github"></a></li>
-
                         <li><a href="#" class="fa-google-plus"></a></li>
                     </ul>
                 </div>
                 <h3 class="wow fadeInDown delay-06s">Bojan Jagetic</h3>
                 <span class="trn" data-trn-key="CEOCOFOUNDER">CEO / Co-founder</span>
                 <span class="wow fadeInDown delay-06s">Web/Mobile Developer</span>
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <a href='http://bojanjagetic.tk' target="_blank" >http://bojanjagetic.tk </a>
+
 
             </div>
             <div class="team-leader-box">
@@ -333,7 +337,6 @@
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/team/team-leader-pic3.jpg" alt="">
                     <ul>
-                        <li><a href="#" class="fa-twitter"></a></li>
                         <li><a href="#" class="fa-facebook"></a></li>
                         <li><a href="#" class="fa-instagram"></a></li>
                         <li><a href="#" class="fa-google-plus"></a></li>
@@ -352,25 +355,16 @@
 <!--PRICE-->
 <section class="main-section contact" id="pricing">
     <h2 class="trn" data-trn-key="PRICING">Pricing</h2>
+    <h6 class="trn" data-trn-key="PRICING_MORE">Pricing</h6>
+
     <div class="cd-pricing-container cd-has-margins">
-        <!--<div class="cd-pricing-switcher">-->
-        <!--<p class="fieldset">-->
-        <!--<input type="radio" name="duration-2" value="web" id="web-2" checked>-->
-        <!--<label for="web-2">Web Development</label>-->
-        <!--<input type="radio" name="duration-2" value="logo" id="branding-2">-->
-        <!--<label for="branding-2">Branding</label>-->
-        <!--<input type="radio" name="duration-2" value="mobile" id="mobile-2">-->
-        <!--<label for="mobile-2">Mobile development</label>-->
-        <!--<span class="cd-switch"></span>-->
-        <!--</p>-->
-        <!--</div> &lt;!&ndash; .cd-pricing-switcher &ndash;&gt;-->
 
         <ul class="cd-pricing-list cd-bounce-invert">
             <li>
                 <ul class="cd-pricing-wrapper">
                     <li data-type="web" class="is-visible">
                         <header class="cd-pricing-header">
-                            <h2>Basic</h2>
+                            <h2>WEB DEVELOPMENT</h2>
 
                             <div class="cd-price">
                                 <span class="cd-currency">$</span>
@@ -391,36 +385,13 @@
                         </div> <!-- .cd-pricing-body -->
 
                         <footer class="cd-pricing-footer">
-                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                            <button type="button" class=" trn cd-select" data-toggle="modal" data-trn-key="SEE_MORE"
+                                    data-target=".modal-web-lg">See more
+                            </button>
                         </footer>  <!-- .cd-pricing-footer -->
                     </li>
 
-                    <li data-type="branding" class="is-hidden">
-                        <header class="cd-pricing-header">
-                            <h2>Basic</h2>
 
-                            <div class="cd-price">
-                                <span class="cd-currency">$</span>
-                                <span class="cd-value">320</span>
-                                <span class="cd-duration">yr</span>
-                            </div>
-                        </header> <!-- .cd-pricing-header -->
-
-                        <div class="cd-pricing-body">
-                            <ul class="cd-pricing-features">
-                                <li><em>256MB</em> Memory</li>
-                                <li><em>1</em> User</li>
-                                <li><em>1</em> Website</li>
-                                <li><em>1</em> Domain</li>
-                                <li><em>Unlimited</em> Bandwidth</li>
-                                <li><em>24/7</em> Support</li>
-                            </ul>
-                        </div> <!-- .cd-pricing-body -->
-
-                        <footer class="cd-pricing-footer">
-                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
-                        </footer>  <!-- .cd-pricing-footer -->
-                    </li>
                 </ul> <!-- .cd-pricing-wrapper -->
             </li>
 
@@ -428,7 +399,7 @@
                 <ul class="cd-pricing-wrapper">
                     <li data-type="mobile" class="is-visible">
                         <header class="cd-pricing-header">
-                            <h2>Popular</h2>
+                            <h2>BRANDING</h2>
                             <div class="cd-price">
                                 <span class="cd-currency">$</span>
                                 <span class="cd-value">60</span>
@@ -448,36 +419,13 @@
                         </div> <!-- .cd-pricing-body -->
 
                         <footer class="cd-pricing-footer">
-                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                            <button type="button" class=" trn cd-select" data-toggle="modal" data-trn-key="SEE_MORE"
+                                    data-target=".modal-branding-lg">See more
+                            </button>
                         </footer>  <!-- .cd-pricing-footer -->
                     </li>
 
-                    <li data-type="yearly" class="is-hidden">
-                        <header class="cd-pricing-header">
-                            <h2>Popular</h2>
 
-                            <div class="cd-price">
-                                <span class="cd-currency">$</span>
-                                <span class="cd-value">630</span>
-                                <span class="cd-duration">yr</span>
-                            </div>
-                        </header> <!-- .cd-pricing-header -->
-
-                        <div class="cd-pricing-body">
-                            <ul class="cd-pricing-features">
-                                <li><em>512MB</em> Memory</li>
-                                <li><em>3</em> Users</li>
-                                <li><em>5</em> Websites</li>
-                                <li><em>7</em> Domains</li>
-                                <li><em>Unlimited</em> Bandwidth</li>
-                                <li><em>24/7</em> Support</li>
-                            </ul>
-                        </div> <!-- .cd-pricing-body -->
-
-                        <footer class="cd-pricing-footer">
-                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
-                        </footer>  <!-- .cd-pricing-footer -->
-                    </li>
                 </ul> <!-- .cd-pricing-wrapper -->
             </li>
 
@@ -485,12 +433,11 @@
                 <ul class="cd-pricing-wrapper">
                     <li data-type="monthly" class="is-visible">
                         <header class="cd-pricing-header">
-                            <h2>Premier</h2>
+                            <h2>MOBILE DEVELOPMENT</h2>
 
                             <div class="cd-price">
-                                <span class="cd-currency">$</span>
-                                <span class="cd-value">90</span>
-                                <span class="cd-duration">mo</span>
+                                <span class="cd-currency">RSD</span>
+                                <span class="cd-value">2300</span>
                             </div>
                         </header> <!-- .cd-pricing-header -->
 
@@ -506,88 +453,68 @@
                         </div> <!-- .cd-pricing-body -->
 
                         <footer class="cd-pricing-footer">
-                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+                            <button type="button" class="trn cd-select" data-toggle="modal" data-trn-key="SEE_MORE"
+                                    data-target=".modal-mobile-lg">See more
+                            </button>
                         </footer>  <!-- .cd-pricing-footer -->
                     </li>
 
-                    <li data-type="yearly" class="is-hidden">
-                        <header class="cd-pricing-header">
-                            <h2>Premier</h2>
 
-                            <div class="cd-price">
-                                <span class="cd-currency">$</span>
-                                <span class="cd-value">950</span>
-                                <span class="cd-duration">yr</span>
-                            </div>
-                        </header> <!-- .cd-pricing-header -->
-
-                        <div class="cd-pricing-body">
-                            <ul class="cd-pricing-features">
-                                <li><em>1024MB</em> Memory</li>
-                                <li><em>5</em> Users</li>
-                                <li><em>10</em> Websites</li>
-                                <li><em>10</em> Domains</li>
-                                <li><em>Unlimited</em> Bandwidth</li>
-                                <li><em>24/7</em> Support</li>
-                            </ul>
-                        </div> <!-- .cd-pricing-body -->
-
-                        <footer class="cd-pricing-footer">
-                            <a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
-                        </footer>  <!-- .cd-pricing-footer -->
-                    </li>
                 </ul> <!-- .cd-pricing-wrapper -->
             </li>
         </ul> <!-- .cd-pricing-list -->
     </div> <!-- .cd-pricing-container -->
 
+
 </section>
 
 
 <section class="main-section contact alabaster" id="contact">
+    <h2 class="trn" data-trn-key="CONTACT">Kontaktirajte nas </h2>
+    <h6 class="trn" data-trn-key="CONTACT_MORE">Here you can see more informations about our team.</h6>
 
     <div class="row no-margin">
-        <h2 class="" data-trn-key="CONTACT">Kontaktirajte nas</h2>
 
         <div class="col-lg-5 col-sm-6 wow fadeInLeft">
                 <div class="contact-info-box address clearfix">
                     <h3 ><i class=" icon-map-marker"></i><span class="trn" data-trn-key="ADRESS">Adresa:</span></h3>
+                    <br/>
                     <span>Srbija, Novi Sad, 21000.</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
                     <h3><i class="fa-phone"></i><span  class="trn" data-trn-key="TELEPHONE">Telefon:</span></h3>
-                    <span>+381 6957-55-659</span>
-                    <span>+381 6957-55-659</span>
+                    <br/>
+                    <span>+381/6373-43-239</span>
+                    <span>+381/6957-55-659</span>
 
                 </div>
                 <div class="contact-info-box email clearfix">
-                    <h3><i class="fa-envelope-o"></i>email:</h3>
+                    <h3><i class="fa-envelope-o"></i><span class="trn" data-trn-key="EMAIL2">Email:</span></h3>
+                    <br/>
                     <span>iguana.development.ns@gmail.com
                     </span>
-                    <span>info@iguanadevelopment.tk</span>
-                   
+
 
                 </div>
                 
                 <ul class="social-link">
-                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="fa-facebook"></i></a></li>
-                    <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
                     <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
                 </ul>
             </div>
         <form action="https://formspree.io/iguana.development.ns@gmail.com" method="POST"
               class="col-lg-6 col-sm-6 wow fadeInUp delay-05s">
 		<label for="name" class="trn" data-trn-key="NAME">Your name </label>
-            <input class="input-text" type="text" name="name" 
+            <input class="input-text" type="text" name="name" id="name"
                    onfocus="if(this.value==this.defaultValue)this.value='';"
                    onblur="if(this.value=='')this.value=this.defaultValue;">
 		<label for="email" class="trn" data-trn-key="EMAIL" > Your email: </label>
-            <input class="input-text" type="email" name="email" 
-                           onfocus="if(this.value==this.defaultValue)this.value='';"
-                           onblur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="email" name="email" id="email"
+                   onfocus="if(this.value==this.defaultValue)this.value='';"
+                   onblur="if(this.value=='')this.value=this.defaultValue;">
 		<label for="message" class="trn" data-trn-key="MESSAGE">Your message </label>
-            <textarea class="input-text text-area" cols="0" name="message" rows="0"
+            <textarea class="input-text text-area" cols="0" name="message" rows="0" id="message"
                       onfocus="if(this.value==this.defaultValue)this.value='';"
                       onblur="if(this.value=='')this.value=this.defaultValue;"></textarea>
                       <button class="btn btn-warning input-btn trn" type="submit" data-trn-key="SEND_MESSAGE">Send</button>
@@ -613,6 +540,143 @@
     </div>
     
 </footer>
+
+
+<!-- MODALS -->
+
+
+<div class="modal fade modal-mobile-lg" tabindex="-1" role="dialog" aria-labelledby="mobileDev">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="mobileDev">Mobile Development</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                    <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <img src="img/main/macbook-pro.png" alt="">
+
+                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-6">
+                                Level 2: .col-xs-8 .col-sm-6
+                            </div>
+                            <div class="col-xs-4 col-sm-6">
+                                Level 2: .col-xs-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning input-btn trn" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade modal-web-lg" tabindex="-1" role="dialog" aria-labelledby="webDev">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="webDev">Web Development</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                    <img src="img/main/macbook-pro.png" alt="">
+
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                    <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <img src="img/main/macbook-pro.png" alt="">
+
+                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-6">
+                                Level 2: .col-xs-8 .col-sm-6
+                            </div>
+                            <div class="col-xs-4 col-sm-6">
+                                Level 2: .col-xs-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning input-btn trn" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade modal-branding-lg" tabindex="-1" role="dialog" aria-labelledby="brandingDev">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="braningDev">Branding and Identity</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                    <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <img src="img/main/macbook-pro.png" alt="">
+
+                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-6">
+                                Level 2: .col-xs-8 .col-sm-6
+                            </div>
+                            <div class="col-xs-4 col-sm-6">
+                                Level 2: .col-xs-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning input-btn trn" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
 <script type="text/javascript">

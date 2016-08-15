@@ -504,6 +504,7 @@
   z-index: 1;
   display: block;
   height: 100%;
+  width:100%;
   /* hide button text on mobile */
   overflow: hidden;
   text-indent: 100%;
@@ -516,28 +517,28 @@
     display: inline-block;
     height: auto;
     padding: 1.3em 3em;
-    color: #FFFFFF;
+    color: #FFF;
     border-radius: 2px;
-    background-color: #0c1f28;
+    background-color: #222;
     font-size: 1.4rem;
     text-indent: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
   .no-touch .cd-select:hover {
-    background-color: #112e3c;
+    background-color: #002;
   }
   .cd-popular .cd-select {
-    background-color: #e97d68;
+    background-color: #ffc000;
   }
   .no-touch .cd-popular .cd-select:hover {
-    background-color: #ec907e;
+    background-color: #FFC06E;
   }
   .cd-secondary-theme .cd-popular .cd-select {
-    background-color: #0c1f28;
+    background-color: #222;
   }
   .no-touch .cd-secondary-theme .cd-popular .cd-select:hover {
-    background-color: #112e3c;
+    background-color: #ffc000;
   }
   .cd-has-margins .cd-select {
     display: block;
