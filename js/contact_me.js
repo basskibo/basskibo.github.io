@@ -17,13 +17,15 @@ $(function () {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+
+                url: "http://iguanadevelopment.com/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
                     email: email,
                     message: message
                 },
+                contentType:'application/x-www-form-urlencoded; charset=UTF-8',
                 cache: false,
                 success: function () {
                     // Success message
