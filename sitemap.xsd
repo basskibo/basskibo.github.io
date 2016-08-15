@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified"
+           targetNamespace="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <xs:element xmlns:ns="http://www.sitemaps.org/schemas/sitemap/0.9" name="urlset" type="ns:urlsetType"/>
+    <xs:complexType name="urlType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="loc"/>
+            <xs:element type="xs:string" name="lastmod"/>
+            <xs:element type="xs:string" name="changefreq"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="urlsetType">
+        <xs:sequence>
+            <xs:element xmlns:ns="http://www.sitemaps.org/schemas/sitemap/0.9" type="ns:urlType" name="url">
+                <xs:annotation>
+                    <xs:documentation>created with Free Online Sitemap Generator www.xml-sitemaps.com</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
