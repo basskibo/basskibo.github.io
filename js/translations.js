@@ -133,7 +133,14 @@
 	    SEE_MORE:{
 	        en: 'See more',
 	        rs: 'Vise detalja'
-	    }
+	    },
+
+        NAZAD:{
+            en: 'Back',
+            rs: 'Nazad'
+        }
+
+
 
 
 
