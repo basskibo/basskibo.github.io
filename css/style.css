@@ -800,3 +800,8 @@ width: 150px
     margin-left:0px;
     margin-right:0px;
 }
+
+.saznajvise{
+	display: flex;
+	justify-content: center;
+}
