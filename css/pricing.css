@@ -451,7 +451,7 @@
     margin: 0;
   }
   .cd-secondary-theme .cd-pricing-features li {
-    color: #FFFFFF;
+    color: #FFF;
   }
   .cd-secondary-theme .cd-pricing-features li:nth-of-type(2n+1) {
     background-color: transparent;
@@ -513,7 +513,6 @@
 }
 @media only screen and (min-width: 768px) {
   .cd-select {
-    position: static;
     display: inline-block;
     height: auto;
     padding: 1.3em 3em;
@@ -532,7 +531,7 @@
     background-color: #ffc000;
   }
   .no-touch .cd-popular .cd-select:hover {
-    background-color: #FFC06E;
+    background-color: #fed142;
   }
   .cd-secondary-theme .cd-popular .cd-select {
     background-color: #222;
