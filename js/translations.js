@@ -7,16 +7,16 @@
           rs:'Dobrodošli na Iguana Development'
         },
         WELCOME2:{
-          en:'We make wishes come true.',
-          rs:'Mi ostvarujemo vaše želje'
+          en:'where your problem disappear',
+          rs:'Gde vaši problemi nestaju'
         },
         SERVICE: {
             en: "SERVICE",
             rs: "USLUGE"
         },
         SERVICE2: {
-            rs: "Usluge koje vam nudimo možete pogledati ispod",
-            en: "We offer exceptional service with complimentary hugs"
+            rs: "Usluge koje Vam mi nudimo, tacnije samo neke od njih.",
+            en: "Some of the offers we offer, to be more precise just some of them."
         },
         PORTFOLIO:{
             en:'Portfolio',
@@ -127,13 +127,23 @@
 	        rs:'Telefon'
 	    },
 	    PRICING_MORE:{
-	        en:'This is some of default pricing,if you want, you can contact us to make custom package.',
-	        rs:'Ovo su neke od uobicajnih cena, ukoliko zelite mozete nas kontaktirati da zajedno napravimo paket po vasoj zelji.'
+	        en:'here you can see packages that we offer and their prices.',
+	        rs:'Ovde možete videti pakete koje nudimo i hjihove cene.'
 	    },
 	    SEE_MORE:{
-	        en: 'See more',
-	        rs: 'Vise detalja'
+	        en: 'web development packages',
+	        rs: 'Web development paketi'
 	    },
+
+        SEE_MORE2:{
+            en: 'Branding packages',
+            rs: 'Brending paketi'
+        },
+
+        SEE_MORE3:{
+            en: 'Mobile development packages',
+            rs: 'Mobilni development paketi'
+        },          
 
         NAZAD:{
             en: 'Back',
