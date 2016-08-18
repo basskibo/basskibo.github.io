@@ -15,8 +15,8 @@
             rs: "USLUGE"
         },
         SERVICE2: {
-            rs: "Usluge koje vam nudimo možete pogledati ispod",
-            en: "We offer exceptional service with complimentary hugs"
+            rs: "Usluge koje Vam mi nudimo, tacnije samo neke od njih.",
+            en: "Some of the offers we offer, to be more precise just some of them."
         },
         PORTFOLIO:{
             en:'Portfolio',
