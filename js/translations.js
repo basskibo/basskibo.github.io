@@ -83,6 +83,11 @@
             rs: 'Logo dizajn'
         },
 
+        MOBILE_DEV:{
+            en:'Mobile development',
+            rs:'Razvoj mobilnih aplikacija'
+        },
+
         PORTFOLIOopis: {
             en: 'Here you can see our work.',
             rs: 'Ovde možete videti naše dosadašnje radove.'
@@ -131,19 +136,9 @@
 	        rs:'Ovde možete videti pakete koje nudimo i hjihove cene.'
 	    },
 	    SEE_MORE:{
-	        en: 'web development packages',
-	        rs: 'Web development paketi'
+	        en: 'See more',
+	        rs: 'Saznaj više '
 	    },
-
-        SEE_MORE2:{
-            en: 'Branding packages',
-            rs: 'Brending paketi'
-        },
-
-        SEE_MORE3:{
-            en: 'Mobile development packages',
-            rs: 'Mobilni development paketi'
-        },          
 
         NAZAD:{
             en: 'Back',
@@ -221,13 +216,23 @@
         },
 
          MOBILEDEV:{
-            en:'Mobile Development',
-            rs:'Mobile Development'
+            en:'Android Development',
+            rs:'Android Development'
+        },
+
+         MOBILEDEV2:{
+            en:'IOS Development',
+            rs:'IOS Development'
         },
 
         MOBILEDEV_INFO:{
-            en:'We are developing mobile apps in frameworks like Ionic and phonegap.More you can find in our portfolio.',
-            rs:'Takodje pravimo i mobilne aplikacije koje vam mogu olakšati poslovanje sa potrosačima.'
+            en:'If you want to exand your business on the fastest growing market, you need to have an application for that. We can make it for you.',
+            rs:'Ukoliko želite da proširite Vaš biznis na tržište sa najvećim rastom, potrebna Vam je aplikacija za to. Mi Vam to i nudimo.'
+        },
+
+         MOBILEDEV_INFO2:{
+            en:'First thought that associate everyone with the word Apple is perfect quality and spotless design. Together we can design and make application that suits your needs. ',
+            rs:'Prve asocijacije na rec Apple su savršen kvalitet i besprekoran dizajn. Zajedno možemo osmisliti i napraviti aplikaciju po Vašoj meri.  '
         },
 
         PODRSKA:{
@@ -240,8 +245,18 @@
 
             en:'If you have some questions or need our help,contact us and our support team will answer in no time.',
             rs:'Ukoliko imate neka pitanja ili vam je potrebna naša pomoć, kontaktirajte nas i naš tim će se odmah odazvati'
-        }
+        },
 
+        FROM: { 
+            en:'from',
+            rs:'od'
+        },
+
+        BREND:{
+            en: 'Branding',
+            rs: 'Brending'
+
+        }
 
 
 
