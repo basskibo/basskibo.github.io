@@ -325,11 +325,11 @@
     padding: 1.9em 0.9em 1.6em;
     pointer-events: auto;
     text-align: center;
-    color: #173d50;
+    color: #000000;
     background-color: transparent;
   }
   .cd-popular .cd-pricing-header {
-    color: #e97d68;
+    color: #ffc000;
     background-color: transparent;
   }
   .cd-secondary-theme .cd-pricing-header {
@@ -367,10 +367,10 @@
   }
 
   .cd-currency, .cd-duration {
-    color: rgba(23, 61, 80, 0.4);
+    color: #000;
   }
   .cd-popular .cd-currency, .cd-popular .cd-duration {
-    color: #e97d68;
+    color: #ffc000
   }
   .cd-secondary-theme .cd-currency, .cd-secondary-theme .cd-duration {
     color: #2e80a7;
@@ -518,14 +518,15 @@
     padding: 1.3em 3em;
     color: #FFF;
     border-radius: 2px;
-    background-color: #222;
+    background-color: #303030;
     font-size: 1.4rem;
     text-indent: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
   .no-touch .cd-select:hover {
-    background-color: #002;
+    background-color: #6b6b6b;
+    text-decoration: none;
   }
   .cd-popular .cd-select {
     background-color: #ffc000;
@@ -667,11 +668,11 @@ packageUl {
   font-family: "FontAwesome";
   content: "\f00c";
   font-size: 1.3rem;
-  color: #33c4b6;
+  color: #666666;
   margin-right: 3px;
 }
 .brilliant {
-  border-color: #33c4b6;
+  border-color: #666666;
 }
 /* Triangle */
 .brilliant::before {
@@ -679,7 +680,7 @@ packageUl {
   height: 0;
   border-style: solid;
   border-width: 64px 64px 0 0;
-  border-color: #3bc6b8 transparent transparent transparent;
+  border-color: #666666 transparent transparent transparent;
   position: absolute;
   left: 0;
   top: 0;
