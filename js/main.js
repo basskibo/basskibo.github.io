@@ -79,4 +79,14 @@ jQuery(document).ready(function($){
 			}
 		});
 	}
+
+
+	$(function() {
+    		$('.pop').on('click', function() {
+    			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+
+    			$('.imagename').attr('value', $(this).find('img').attr('alt'));
+    			$('#imagemodal').modal('show');
+    		});
+    });
 });
