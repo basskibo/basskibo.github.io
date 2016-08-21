@@ -114,8 +114,8 @@
         },
 
         CEOCOFOUNDER:{
-            en: 'CEO/ Co-founder',
-            rs: 'CEO/ Suosnivač'
+            en: 'CEO',
+            rs: 'CEO'
         },
 
         ADRESS: {
