@@ -284,7 +284,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #ffffff;
   text-decoration: underline;
 }
 a:focus {
@@ -2037,7 +2037,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning {
   color: #ffffff;
   background-color: #f0ad4e;
-  border-color: #eea236;
+  border-color: #fff;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -2046,7 +2046,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-warning {
   color: #ffffff;
   background-color: #ed9c28;
-  border-color: #d58512;
+  border-color: #fff;
 }
 .btn-warning:active,
 .btn-warning.active,

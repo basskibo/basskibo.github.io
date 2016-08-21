@@ -118,7 +118,7 @@
             rs: 'CEO/ Suosnivač'
         },
 
-        ADDRESS: {
+        ADRESS: {
             en: 'Address',
             rs: 'Adresa'
         },
@@ -256,7 +256,336 @@
             en: 'Branding',
             rs: 'Brending'
 
+        },
+
+        APPLICATION:{
+            en: 'Application',
+            rs: 'Aplikacija'
+        },
+
+        UNIDIZ: {
+            en:'Unique design',
+            rs: 'Unikatan dizajn'
+        },
+        RESSTR: {
+            en:'Responsive pages',
+            rs: 'Responzivne stranice'
+        },
+        SEOO: {
+            en:'SEO optimization, Gallery...', 
+            rs: 'SEO optimizacija, Galerija...'
+        },
+        KONF: {
+            en:'Contact form',
+            rs: 'Kontakt forma'
+        },
+        VISJ: {
+            en:'Multi language website',
+            rs: 'Višejezičnost'
+        },
+        PODIODR: {
+            en:'Support and administration',
+            rs: 'Podrška i održavanje'
+        },
+        OTDM:{
+            en: 'Creating profile for social networks',
+            rs: 'Otvaranje profila na društvenim mrežama'
+
+        },
+        ODRDM:{
+            en: 'Social media administration',
+            rs: 'Održavanje profila na društvenim mrežama'
+
+        },
+        DL:{
+            en: 'Logo design',
+            rs: 'Dizajn logotipa'
+
+        },
+        DFC:{
+            en: 'A flyer and price lists design',
+            rs: 'Dizajn flajera, cenovnika'
+
+        },
+        DVK:{
+            en: 'Business card design',
+            rs: 'Dizajn vizit kartica'
+
+        },
+        DORM:{
+            en: 'Design of promotional material',
+            rs: 'Dizajn ostalog reklamnog materijala'
+
+        },
+
+        WA: { 
+            en:'Web application',
+            rs:'Web aplikacija'
+        },
+
+        MA: { 
+            en:'Mobile application',
+            rs:'Mobilna aplikacija'
+        },
+
+        BP: { 
+            en:'D atabase',
+            rs:'Baza podataka'
+        },
+
+        CMSS: { 
+            en:'CMS system',
+            rs:'CMS sistem'
+        },
+
+        WPIB: { 
+            en:'Web portal or Web blog ',
+            rs:'Web portal ili blog'
+        },
+
+        WP: { 
+            en:'Web store',
+            rs:'Web prodavnica'
+        },
+
+        DOGOVOR: { 
+            en:'Negotiable',
+            rs:'Po dogovoru'
+        },
+
+        SSIIW: { 
+            en:'Including everything from website',
+            rs:'Sve što ima i website'
+        },
+
+        BPMQ: { 
+            en:'Database (MySQL, PostgreSQL, MSQL, MongoDB',
+            rs:'Baza podataka (MySQL, PostgreSQL, MSQL, MongoDB'
+        },
+
+        CMSSSS: { 
+            en:'CMS system - manually creation and modification of materials ',
+            rs:'CMS Sistem, odnosno samostalno uređivanje i postavljanje novog materijala'
+        },
+
+        INSDS: { 
+            en:'Integration with other systems',
+            rs:'Integracija sa drugim sistemima'
+        },
+
+        WFWPB: { 
+            en:'Web forum, web store, blog',
+            rs:'Web forum, web prodavnica, blog'
+        },
+
+        IZPVZ: { 
+            en:'Custom software development',
+            rs:'Izrada po Vasoj želji'
+        },
+
+        AOS: { 
+            en:'Android operating system',
+            rs:'Android operativni sistem'
+        },
+
+        IOSOS: { 
+            en:'IOS operating system',
+            rs:'IOS operativni sistem'
+        },
+
+        WEBMA:{ 
+            en:'Web + Mobile application',
+            rs:'Web + Mobilna aplikacija'
+        },
+        OVPRIMCGI:{ 
+            en:'Design your business solution and we will implement it',
+            rs:'Osmislite vase poslovno resenje i mi cemo ga implementirati'
+        },
+        SOVPMVBDIPMU:{ 
+            en:'With this package your information may be accessible via mobile devices',
+            rs:'Sa ovim paketom Vasi podaci mogu Vam biti dostupni i preko mobilnog uredjaja'
+        },
+
+        ZATVORI:{ 
+            en:'Close',
+            rs:'Zatvori'
+        },
+
+        BASICP:{ 
+            en:'Basic package',
+            rs:'BASIC Paket'
+        },
+        OD50E:{ 
+            en:'From 50€',
+            rs:'Od 50€'
+        },
+        D10S:{ 
+            en:'Up to 10 pages',
+            rs:'Do 10 stranica'
+        },
+        UNID:{ 
+            en:'Unique design',
+            rs:'Unikatan dizajn'
+        },
+        RDPSU:{ 
+            en:'Responsive design, makes your web page look good on all devices',
+            rs:'Responsive dizaj, prilagodljiv svim uređjima'
+        },
+        OSO:{ 
+            en:'Basic SEO Optimization',
+            rs:'Osnovna SEO optimizacija'
+        },
+        KFF:{ 
+            en:'Contact form',
+            rs:'Kontakt forma'
+        },
+        BDPGD:{ 
+            en:'First year free domain',
+            rs:'Besplatan domen prvih godinu dana'
+        },
+
+        CUSTOMP:{ 
+            en:'Custom package',
+            rs:'Custom Paket'
+        },
+        OPOSBSZ:{ 
+            en:'This package is determined by you, choose what you want, and after consultation we determine the price',
+            rs:'Ovaj paket određujete sami, birate šta želite i nakon dogovora određujemo cenu u dogovoru sa vama'
+        },
+        FSPVZ:{ 
+            en:'Website form of your choice',
+            rs:'Forma sajta po vasšj želji'
+        },
+
+        NORMALP:{ 
+            en:'Normal package',
+            rs:'Normal paket'
+        },
+
+        OD150E:{ 
+            en:'From 150€',
+            rs:'Od 150€'
+        },
+        NBS:{ 
+            en:'Unlimited number of pages',
+            rs:'Neograničen broj stranica'
+        },
+        
+        NSEOO:{ 
+            en:'Advanced SEO optimization',
+            rs:'Napredna SEO optimizacija'
+        },
+        GALER:{ 
+            en:'Gallery',
+            rs:'Galerija'
+        },
+        ANKET:{ 
+            en:'Survey',
+            rs:'Anketa'
+        },
+        PFNM:{ 
+            en:'Showing company on the map',
+            rs:'Prikaz kompanije na mapi'
+        },
+        PSDM:{ 
+            en:'Connecting with social networks',
+            rs:'Povezivanje sa drustvenim mrezama'
+        },
+        REDISIGNP:{ 
+            en:'Redesign',
+            rs:'Redizajn paket'
+        },
+        OD10E:{ 
+            en:'From 10€',
+            rs:'Od 10€'
+        },
+        RKS:{ 
+            en:'Redesign of the existing website',
+            rs:'Redizajn kompletnog sajta'
+        },
+        ZFE:{ 
+            en:'Replacement of flash elements',
+            rs:'Zamena Flash elementa'
+        },
+        DNF:{ 
+            en:'Adding new functionality',
+            rs:'Dodavanje novih funkcionalnosti'
+        },
+        JIGSPS:{ 
+            en:'One-time troubleshooting with the existing site',
+            rs:'Jednokratno ispravljanje gresaka sa postojeceg sajta'
+        },
+
+        ODRZAVANJEP:{ 
+            en:'Maintenance package',
+            rs:'Održavanje paket'
+        },
+        MASNSUZOVP:{ 
+            en:'A monthly update on the website, depending on your needs',
+            rs:'Mesečno ažuriranje sadržaja na sajtu u zavisnosti od Vaših potreba'
+        },
+        MBP:{ 
+            en:'Monthly backup',
+            rs:'Mesečni bekap'
+        },
+
+        BASM:{ 
+            en:'Branding and social networks',
+            rs:'Brending i društvene mreže'
+        },
+        DRMRE:{ 
+            en:'Social networks',
+            rs:'Drustvene mreže'
+        },
+        ODMPSFTI:{ 
+            en:'Creating profiles for social networks like Facebook, Twitter, Instagram...',
+            rs:'Otvaranje društvenih mreža: Facebook, Twitter, Instagram...'
+        },
+        SODM:{ 
+            en:'Daily maintenance of profiles on social networks',
+            rs:'Svakodnevno održavanje akaunta društvenih mreža'
+        },
+        OBNS:{ 
+            en:'The publication of new content',
+            rs:'Objavljivanje novog sadržaja'
+        },
+        KSPIFPC:{ 
+            en:'Communicating with visitors and fans via chat',
+            rs:'Komuniciranje sa posetiocima i fanovima putem chata'
+        },
+
+        DM:{ 
+            en:'T-shirt design',
+            rs:'Dizajn majci'
+        },
+        DIZAJN:{ 
+            en:'Design',
+            rs:'Dizajn'
+        },
+        OD20E:{ 
+            en:'From 20€',
+            rs:'Od 20€'
+        },
+        DCEN:{ 
+            en:'Price list design',
+            rs:'Dizajn cenovnika'
+        },
+        DFLAJ:{ 
+            en:'Flyer design',
+            rs:'Dizajn flajera'
+        },
+        DPIPO:{ 
+            en:'Poster design',
+            rs:'Dizajn plakata i postera'
+        },
+
+        WEBSITE:{
+            en:'Website',
+            rs:'Websajt'
         }
+
+
+
 
 
 
