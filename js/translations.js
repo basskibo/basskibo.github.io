@@ -15,7 +15,7 @@
             rs: "USLUGE"
         },
         SERVICE2: {
-            rs: "Usluge koje Vam mi nudimo, tacnije samo neke od njih.",
+            rs: "Usluge koje Vam mi nudimo, tačnije samo neke od njih.",
             en: "Some of the offers we offer, to be more precise just some of them."
         },
         PORTFOLIO:{
@@ -32,7 +32,7 @@
         },
         CONTACT_MORE:{
             en:'If you want to hire us or have some questions, feel free to ask.',
-            rs:'Ukoliko zelite da nas unajmite ili imate neko pitanje, slobodno nas kontaktirajte.'
+            rs:'Ukoliko želite da nas unajmite ili imate neko pitanje, slobodno nas kontaktirajte.'
         },
         NAME:{
             en:'Name: *',
@@ -40,7 +40,7 @@
         },
         SEND_MESSAGE:{
             en: 'Send Message',
-            rs: 'Posalji'
+            rs: 'Pošalji'
         },
         GETSTARTED: {
             en: 'Get Started',
@@ -100,7 +100,7 @@
 
         TEAMdetail: {
             en:'Here you can see more informations about our team.',
-            rs:'Ovde mozete videti više informacija o našem timu'
+            rs:'Ovde možete videti više informacija o našem timu'
         },
 
         DESIGNER: {
@@ -157,7 +157,7 @@
 
         OPTIMIZACIJA_INFO:{
             en: 'A very important part of making Web site. We take care that page is adjusted for all search engines like Google Chrome, Safari, Mozilla Firefox, etc.',
-            rs: 'Veoma bitan segment izrade svakog sajta. Mi posebno vodimo računa da stranice bude prilagodjene svim pretrazivacima poput Google Chrome, Safari, Mozilla Firefox itd.'
+            rs: 'Veoma bitan segment izrade svakog sajta. Mi posebno vodimo računa da stranice bude prilagođene svim pretrazivačima poput Google Chrome, Safari, Mozilla Firefox itd.'
         },
 
         ANALITIKA:{
@@ -167,12 +167,12 @@
 
         ANALITIKA_INFO:{
             en:'You can see how mutch visitors your website had for a day, a week, a month, from which locations are your visitors, how long they stayed on a page and which pages are most popular for your visitors as well as lots of other useful information.',
-            rs:'Omogućavamo Vam uvid u broj poseta dnevno, nedeljno, mesečno, sa koje lokacije su Vaši posetioci najzastupljeniiji, koliko su se zadržali na stranici i koje su stranice najpopularnije Vašim posetiocima kao i mnoge druge korisne informacije.'
+            rs:'Omogućavamo Vam uvid u broj poseta dnevno, nedeljno, mesečno, sa koje lokacije su Vaši posetioci najzastupljeniji, koliko su se zadržali na stranici i koje su stranice najpopularnije Vašim posetiocima kao i mnoge druge korisne informacije.'
         },
 
          DVOJEZICNOST:{
             en:'Multi language website',
-            rs:'Dvojezicna stranica'
+            rs:'Dvojezična stranica'
         },
 
         DVOJEZICNOST_INFO:{
@@ -202,7 +202,7 @@
 
         DMREZE_INFO:{
             en: 'Currently social networks play the biggest role in modern marketing. We offer you a social media administration on the most popular social networks such as Facebook, Twitter, like Instagram and many others.',
-            rs: 'U današnje vreme društvene mreže igraju najvecu ulogu u savremenom marketingu. Mi Vam nudimo otvaranje i održavanje stranica na najpopularnijim socijalnim mrežama poput Facebook-a, Twitter-a, Instagram-a kao i mnoge druge koje imaju milione aktivnih korisnika.'
+            rs: 'U današnje vreme društvene mreže igraju najveću ulogu u savremenom marketingu. Mi Vam nudimo otvaranje i održavanje stranica na najpopularnijim socijalnim mrežama poput Facebook-a, Twitter-a, Instagram-a kao i mnoge druge koje imaju milione aktivnih korisnika.'
         },
 
         BREND:{
@@ -212,7 +212,7 @@
 
         BREND_INFO:{
             en:'We offr you a original logo design and redesign of the old one. Also we design business cards, leaflets, posters and other promotional material',
-            rs:'Nudimo Vam i dizajn jedinstvenog logotipa ili redizajn postojeceg, pomoću kojeg će Vas lakše prepoznati na tržištu. Takođe dizajniramo i vizitkarte, flajere, plakate i ostali reklamni materijal.'
+            rs:'Nudimo Vam i dizajn jedinstvenog logotipa ili redizajn postojećeg, pomoću kojeg će Vas lakše prepoznati na tržištu. Takođe dizajniramo i vizitkarte, flajere, plakate i ostali reklamni materijal.'
         },
 
          MOBILEDEV:{
@@ -380,7 +380,7 @@
 
         IZPVZ: { 
             en:'Custom software development',
-            rs:'Izrada po Vasoj želji'
+            rs:'Izrada po Vašoj želji'
         },
 
         AOS: { 
@@ -399,11 +399,11 @@
         },
         OVPRIMCGI:{ 
             en:'Design your business solution and we will implement it',
-            rs:'Osmislite vase poslovno resenje i mi cemo ga implementirati'
+            rs:'Osmislite Vaše poslovno rešenje i mi ćemo ga implementirati'
         },
         SOVPMVBDIPMU:{ 
             en:'With this package your information may be accessible via mobile devices',
-            rs:'Sa ovim paketom Vasi podaci mogu Vam biti dostupni i preko mobilnog uredjaja'
+            rs:'Sa ovim paketom Vaši podaci mogu Vam biti dostupni i preko mobilnog uređaja'
         },
 
         ZATVORI:{ 
@@ -429,7 +429,7 @@
         },
         RDPSU:{ 
             en:'Responsive design, makes your web page look good on all devices',
-            rs:'Responsive dizaj, prilagodljiv svim uređjima'
+            rs:'Responsive dizajn, prilagodljiv svim uređjima'
         },
         OSO:{ 
             en:'Basic SEO Optimization',
@@ -454,7 +454,7 @@
         },
         FSPVZ:{ 
             en:'Website form of your choice',
-            rs:'Forma sajta po vasšj želji'
+            rs:'Forma sajta po vašoj želji'
         },
 
         NORMALP:{ 
@@ -489,7 +489,7 @@
         },
         PSDM:{ 
             en:'Connecting with social networks',
-            rs:'Povezivanje sa drustvenim mrezama'
+            rs:'Povezivanje sa društvenim mrežama'
         },
         REDISIGNP:{ 
             en:'Redesign',
@@ -513,7 +513,7 @@
         },
         JIGSPS:{ 
             en:'One-time troubleshooting with the existing site',
-            rs:'Jednokratno ispravljanje gresaka sa postojeceg sajta'
+            rs:'Jednokratno ispravljanje grešaka sa postojećeg sajta'
         },
 
         ODRZAVANJEP:{ 
@@ -535,7 +535,7 @@
         },
         DRMRE:{ 
             en:'Social networks',
-            rs:'Drustvene mreže'
+            rs:'Društvene mreže'
         },
         ODMPSFTI:{ 
             en:'Creating profiles for social networks like Facebook, Twitter, Instagram...',
