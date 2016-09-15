@@ -582,6 +582,10 @@
         WEBSITE:{
             en:'Website',
             rs:'Websajt'
+        },
+        INFO:{
+            en:'How did you found us ?',
+            rs:'Kako ste nas pronasli ?'
         }
 
 
