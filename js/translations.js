@@ -600,7 +600,7 @@
 
         
     };
-    var _t = $('body').translate({lang: "rs", t: t});
+    var _t = $('body').translate({lang: "en", t: t});
 
 
     $(".lang_selector").click(function(ev) {
