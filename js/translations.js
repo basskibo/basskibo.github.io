@@ -586,6 +586,22 @@
         INFO:{
             en:'How did you found us ?',
             rs:'Kako ste nas pronasli ?'
+        },
+        OPT:{
+            en:'Directly',
+            rs:'Direktno'
+        },
+        OPT1:{
+            en:'Through friend',
+            rs:'Preko prijatelja'
+        },
+        OPT2:{
+            en:'Through social networks',
+            rs:'Preko društvenih mreza'
+        },
+        OPT3:{
+            en:'Through advertisment',
+            rs:'Preko reklama'
         }
 
 
